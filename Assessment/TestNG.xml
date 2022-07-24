@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IDP Test Suite" >
+    <listeners>
+        <listener class-name="com.zotero.listeners.TestListener"/>
+    </listeners>
+    <test name="HomePage">
+        <classes>
+            <class name="com.zotero.testCases.VerifySearchResult"/>
+        </classes>
+    </test>
+</suite>
